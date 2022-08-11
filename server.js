@@ -35,6 +35,10 @@ app.delete('/api/notes/:id', (req, res) => {
     fs.writeFileSync(path.join(__dirname, '/db/db.json'), JSON.stringify(json))
     res.send(json)
 });
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/index.html'));
+}) 
 app.listen(4000, () => {
     console.log("listening on port 4000");
 })
