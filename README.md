@@ -4,6 +4,10 @@
 
 This is a note taker application where you can create multiple notes that can be saved. You can also delete any notes as well.
 
+## Deployed Link
+
+https://note-taker-8-22.herokuapp.com/
+
 ## MIT License
 
 Copyright (c) [2022] [Bethany Duchene-Jennings]
